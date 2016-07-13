@@ -1,0 +1,25 @@
+{
+  "name": "node-underscore-html-generator",
+  "version": "1.0.0",
+  "description": "Takes a data object, an underscore template and returns the populated template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:hevnly/node-underscore-html-gen.git"
+  },
+  "author": "{name: \"Mario Mendes\", email: \"mario@hevnly.com\"}",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "proxyquire": "^1.7.10",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
